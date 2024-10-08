@@ -1,0 +1,35 @@
+
+<html>
+<head>
+   <title>Cadastro de endereço</title>
+   <link rel="stylesheet" type="text/css" href="../css/endereco.css" media="screen" />
+   <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/171/171322.png">
+   <script src="../script/endereco.js"></script>
+
+</head>
+    <body>
+        <a href="../index.html"><strong>Página inicial</strong></a>
+        <br>
+        <br>
+        <a href="./home.html"><strong>HOME</strong></a>
+        
+        <section class="form">
+            <h1 style="text-align: center;">Cadastre seu endereço</h1>
+            <div>
+                <form>
+                    <label for="name">Nome da rua</label>
+                    <input type="text" id="nomedarua" name="nomedarua" placeholder="Digite o nome da rua">
+            
+                    <label for="name">Número da residência</label>
+                    <input type="text" id="numerodaresidencia" name="numerodaresidencia" placeholder="Digite o número da sua residência">
+
+                    <label for="name">CEP</label>
+                    <input type="text" maxlength="8" id="CEP" name="CEP" placeholder="Digite o CEP">
+                
+                    <label for="name">Título</label>
+                    <input type="text" id="titulo" name="titulo">
+ 
+                    <input type="button" value="Cadastre" onclick="cadastroEndereco()">
+                </form>
+    </body>
+</html>

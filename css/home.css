@@ -1,0 +1,45 @@
+th{
+   width: 250px;
+   background-color: rgb(129, 129, 255);
+   
+}
+
+th, td {
+   padding: 10px;
+   text-align: left;
+}
+
+body{
+   background-color: rgb(0, 0, 0);
+   color: black;
+   background-image: url(../fotos/wallpaperflare.com_wallpaper.jpg);
+   align-items: center;
+   overflow: hidden;
+   background-size: cover;
+}  
+
+tr:nth-child(odd) {
+   background-color: lightblue;
+}
+
+tr:nth-child(even) {
+   background-color: white;
+}
+
+a{
+   color: rgb(255, 0, 0);
+}
+
+#tabelaendereco th:nth-child(1),
+#tabelaendereco td:nth-child(1),
+#tabelaendereco th:nth-child(4),
+#tabelaendereco td:nth-child(4) {
+   width: 25%;
+}
+
+#tabelaendereco th:nth-child(2),
+#tabelaendereco td:nth-child(2),
+#tabelaendereco th:nth-child(3),
+#tabelaendereco td:nth-child(3) {
+   width: 15%; 
+}

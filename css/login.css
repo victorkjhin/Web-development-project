@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    background-image: url('../fotos/black-and-white-book-1920-x-1080-wallpaper-3ihpfd1aaoe0tuya.jpg');
+    background-position: center;
+    background-size: auto;
+}
+
+.form-container {
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top:10px;
+    height: 50%;
+}
+  
+input[type="text"],
+input[type="password"],
+
+select {
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: transparent
+}
+
+input[type="button"] {
+    width: 50%; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(141, 78, 27); 
+    color: white; 
+    cursor: pointer;
+}
+
+a{
+    color:rgb(141, 78, 27);
+}
+
+::-webkit-input-placeholder{
+    color: black;
+}

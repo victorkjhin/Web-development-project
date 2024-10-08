@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+    color: black;
+    background-image: url(https://i.pinimg.com/originals/e2/e1/ab/e2e1abe28581200b7771340b5e66fce3.png);
+    align-items: center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.form {
+    margin:  auto;
+    max-width: 400px;        
+    grid-gap: 100px;  
+}   
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=button] {
+    width: 100%;
+    background-color:rgb(141, 78, 27);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

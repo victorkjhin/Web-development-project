@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+    color: black;
+    background-image: url(../fotos/wp2036904.webp);
+    align-items: center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.form {
+    margin: auto;
+    max-width: 300px;        
+    padding: 30px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+input[type=button] {
+    width: 100%;
+    background-color:rgb(141, 78, 27);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+a{
+    color: rgb(255, 0, 0);
+}
